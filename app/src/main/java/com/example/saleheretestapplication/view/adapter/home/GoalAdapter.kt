@@ -38,6 +38,8 @@ class GoalRecyclerViewHolder(
         viewBinding.txtDescriptionGoal.text = data.description
         viewBinding.activeValues.text =
             viewBinding.root.context.getString(R.string.unit_text, data.activeValues)
+        viewBinding.recommendValues.text =
+            viewBinding.root.context.getString(R.string.unit_text, data.recommendValues)
         viewBinding.txtStatusGoal.text = if (data.status == 1) "Good" else "Unhappy"
         viewBinding.txtCountdownGoal.text = data.countdownDate
     }
