@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SaleHere</string>
+    <string name="achievement_title">Achievement</string>
+    <string name="level_title">Level 2</string>
+    <string name="title_goal">What your Goal</string>
+    <string name="hint_amount_edit_text">Amount</string>
+    <string name="unit_text">%s THB</string>
+    <string name="unit_edit_text">THB</string>
+    <string name="unit_edit_month_text">THB / Month</string>
+    <string name="hint_select_date_edit_text">Select Date</string>
+    <string name="hint_select_account_edit_text">Select Account</string>
+    <string name="title_account">Bank Account</string>
+    <string name="target_goal_unit">%s Goals</string>
+    <string name="title_saving">All Saving</string>
+    <string name="new_goal_title">New Goal</string>
+    <string name="best_offer_title">Best Offer</string>
+    <string name="suggest_for_you_title">Suggest for you</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.saleheretestapplication.view.ui.fragment.home.HomeScreenFragment"
+        android:label="HomeScreen"
+        tools:layout="@layout/fragment_home_screen">
+        <action
+            android:id="@+id/action_homeFragment_to_goalDetailFragment"
+            app:destination="@id/goalDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/goalDetailFragment"
+        android:name="com.example.saleheretestapplication.view.ui.fragment.goal.GoalDetailScreenFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_achievement_screen" />
+
+    <fragment
+        android:id="@+id/achievementFragment"
+        android:name="com.example.saleheretestapplication.view.ui.fragment.achievement.AchievementScreenFragment"
+        android:label="Achievement"
+        tools:layout="@layout/fragment_achievement_screen" />
+</navigation>

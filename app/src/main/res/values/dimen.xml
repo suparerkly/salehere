@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingNavTop">10sp</dimen>
+    <dimen name="paddingNavBottom">10sp</dimen>
+    <dimen name="padding90sp">90sp</dimen>
+    <dimen name="padding30sp">30sp</dimen>
+    <dimen name="padding20sp">20sp</dimen>
+    <dimen name="padding15sp">15sp</dimen>
+    <dimen name="padding10sp">10sp</dimen>
+    <dimen name="padding5sp">5sp</dimen>
+    <dimen name="padding3sp">3sp</dimen>
+    <dimen name="size100sp">100sp</dimen>
+    <dimen name="size200sp">200sp</dimen>
+    <dimen name="size300sp">300sp</dimen>
+    <dimen name="textSize25dp">25sp</dimen>
+    <dimen name="textSize20dp">20sp</dimen>
+    <dimen name="textSize18dp">18sp</dimen>
+    <dimen name="textSize15dp">15sp</dimen>
+    <dimen name="textSize12dp">12sp</dimen>
+    <dimen name="margin5sp">5sp</dimen>
+    <dimen name="margin10sp">10sp</dimen>
+    <dimen name="margin15sp">15sp</dimen>
+    <dimen name="margin20sp">20sp</dimen>
+    <dimen name="margin25sp">25sp</dimen>
+    <dimen name="margin30sp">30sp</dimen>
+    <dimen name="margin50sp">50sp</dimen>
+    <dimen name="size25sp">25sp</dimen>
+    <dimen name="size30sp">30sp</dimen>
+    <dimen name="size50sp">50sp</dimen>
+    <dimen name="size60dp">60dp</dimen>
+</resources>

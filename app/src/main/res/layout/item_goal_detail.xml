@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="@dimen/padding15sp"
+    android:paddingTop="@dimen/padding20sp"
+    android:paddingEnd="@dimen/padding5sp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding15sp"
+        android:background="@drawable/background_goal_list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_travel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.35"
+            tools:ignore="ContentDescription" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageGoal"
+            app:layout_constraintStart_toEndOf="@+id/imageGoal"
+            app:layout_constraintTop_toTopOf="@+id/imageGoal">
+
+            <TextView
+                android:id="@+id/activeValues"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sukhumvitset_bold"
+                android:textColor="@color/colorYellow"
+                android:textSize="@dimen/textSize18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="16,500 THB"
+                />
+
+            <TextView
+                android:id="@+id/recommendValues"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sukhumvitset_bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textSize12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/activeValues"
+                tools:text="16,500 THB"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/imagePercentGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin10sp"
+            android:src="@drawable/status"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageGoal"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtDescriptionGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15sp"
+            android:fontFamily="@font/sukhumvitset_bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagePercentGoal"
+            tools:text="ไปเที่ยวญี่ปุ่น"
+            />
+
+        <TextView
+            android:id="@+id/txtStatusGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/sukhumvitset_bold"
+            android:paddingStart="@dimen/padding3sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescriptionGoal"
+            tools:text="Good"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/txtCountdownGoal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin15sp"
+            android:fontFamily="@font/sukhumvitset_bold"
+            android:paddingStart="@dimen/padding3sp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtDescriptionGoal"
+            tools:text="45 days left"
+            tools:ignore="RtlSymmetry" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
